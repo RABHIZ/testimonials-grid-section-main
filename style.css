@@ -1,0 +1,72 @@
+:root{
+   --Purple-50: hsl(260, 100%, 95%);
+   --Purple-300: hsl(264, 82%, 80%);
+   --Purple-500: hsl(263, 55%, 52%);
+   --White: hsl(0, 0%, 100%);
+   --Grey-100: hsl(214, 17%, 92%);
+   --Grey-200: hsl(0, 0%, 81%);
+   --Grey-400: hsl(224, 10%, 45%);
+   --Grey-500: hsl(217, 19%, 35%);
+   --Dark-blue: hsl(219, 29%, 14%);
+   --Black: hsl(0, 0%, 7%);
+}
+@font-face {
+    font-family:BSC ;
+    src: url(./BFMP/Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+    background-color: var(--Grey-200);
+    
+}
+h1{
+font-family: BSC;
+}
+h1 .name{
+    font-size: 1rem;
+    vertical-align: middle;
+    
+}
+h1 .veirified{
+    font-size: .8rem;
+    vertical-align: middle;
+    
+    color: var(--Grey-400);
+}
+.card-1, .card-2,.card-3, .card-4, .card-5{
+    width: 20rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+
+}
+.gra{
+    font-family: BSC;
+    margin-bottom: 1rem;
+
+}
+.card-1{
+    margin-top: 4rem;
+    background-color: var(--Purple-500);
+}
+.card-2{
+    background-color: var(--Grey-500);
+}
+.card-3, .card-5{
+    background-color: var(--White);
+}
+.card-4{
+    background-color: var(--Dark-blue);
+    color: var(--Grey-200);
+}
+
+.container{
+    height: 100hv;
+
+}
+
